@@ -37,7 +37,6 @@ We derive the origin input data for determiners training. Before training proces
 ```shell
 python preprocessing.py
 ```
-Or, get the input data from [here](https://jbox.sjtu.edu.cn/l/L04d4B)
 
 ## Train
 ### Train the Networks
@@ -45,10 +44,6 @@ Run the command below to train the big/small networks, you can train the network
 ```shell
 python train_net.py
 ```
-or just download the pre-trained models below:
-- Download [mini1-2](https://jbox.sjtu.edu.cn/l/KnHzFd)
-- Download [mini3-5](https://jbox.sjtu.edu.cn/l/noXqmh)
-- Download [mini6-8](https://jbox.sjtu.edu.cn/l/Y0TMhn)
 
 ### Train the Determiners
 To train and select the determiner with the best performance, run the code below:
@@ -56,4 +51,3 @@ To train and select the determiner with the best performance, run the code below
 python train_xxxx.py
 ```
 You can choose ```DecisionTree``` or ```RandomForest``` to do the training.
-Or, download the pre-trained [models](https://jbox.sjtu.edu.cn/l/fJ6wEP)
